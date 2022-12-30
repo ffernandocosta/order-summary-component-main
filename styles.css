@@ -1,0 +1,16 @@
+/* my variables */
+
+:root {
+    --clr-primary-100: hsl(225, 100%, 94%);
+    --clr-primary-500: hsl(245, 75%, 52%);
+    
+    --clr-neutral-100: hsl(225, 100%, 98%);
+    --clr-neutral-400: hsl(224, 23%, 55%);
+    --clr-neutral-800: hsl(223, 47%, 23%);
+
+    --ff-primary: "Red Hat Display", sans-serif;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-black: 900;
+}

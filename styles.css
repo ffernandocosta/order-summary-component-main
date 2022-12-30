@@ -24,12 +24,21 @@ body {
     font-size: 1rem;
     color: var(--clr-neutral-400);
     background-color: var(--clr-primary-100);
-
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
     /* since it's a simple project and all the content is center in the middle, I decided to put this on the body */
 
     display: grid;
     place-content: center;
     margin: 1.5rem;
+}
+
+@media screen and  (max-width: 375px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
 }
 
 /* utilities */
@@ -129,4 +138,14 @@ body {
 .button-cancel-order:hover {
     color: var(--clr-neutral-800);
     cursor: pointer;
+}
+
+/* footer styles */
+
+.footer { 
+    font-size: 11px; text-align: center; margin-top: 4rem;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
 }

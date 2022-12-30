@@ -100,8 +100,7 @@ body {
     color: var(--clr-primary-500);
     font-weight: var(--fw-bold);
     font-size: 0.9rem;
-    text-align: right;
-    padding: 0;
+    margin-left: auto;
 }
 
 .button__change-plan:hover {

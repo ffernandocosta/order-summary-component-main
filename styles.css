@@ -3,6 +3,7 @@
 :root {
     --clr-primary-100: hsl(225, 100%, 94%);
     --clr-primary-500: hsl(245, 75%, 52%);
+    --clr-primary-300: hsl(245, 75%, 65%);
     
     --clr-neutral-100: hsl(225, 100%, 98%);
     --clr-neutral-400: hsl(224, 23%, 55%);
@@ -93,6 +94,12 @@ body {
     padding: 0;
 }
 
+.button__change-plan:hover {
+    color: var(--clr-primary-300);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .button-payment {
     font-size: 0.9rem;
     font-weight: var(--fw-bold);
@@ -104,6 +111,11 @@ body {
     box-shadow: 0 15px 30px -15px var(--clr-primary-500);
 }
 
+.button-payment:hover {
+    background-color: var(--clr-primary-300);
+    cursor: pointer;
+}
+
 .button-cancel-order {
     font-size: 0.9rem;
     font-weight: var(--fw-black);
@@ -111,4 +123,9 @@ body {
     background: none;
     border: none;
     padding: 0.5rem 0;
+}
+
+.button-cancel-order:hover {
+    color: var(--clr-neutral-800);
+    cursor: pointer;
 }

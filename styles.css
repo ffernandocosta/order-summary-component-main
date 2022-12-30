@@ -52,6 +52,7 @@ body {
     border-radius: 1.1rem;
     overflow: hidden;
     background-color: white;
+    max-width: 410px;
 }
 
 .order__summary {

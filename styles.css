@@ -30,3 +30,85 @@ body {
     place-content: center;
     margin: 1.5rem;
 }
+
+/* utilities */
+
+.flex-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+/* order styles */
+
+.order__container {
+    /* creating vars for this product class just to make it easier to adjust later in the project */
+    
+    --content-padding: 1.5rem 1.5rem 0.9rem 1.5rem;
+    --content-spacing: 1.1rem;
+
+    display: grid;
+    border-radius: 1.1rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.order__summary {
+    display: grid;
+    padding: var(--content-padding);
+    gap: var(--content-spacing);
+    text-align: center;
+}
+
+.order__title {
+    font-size: 1.3rem;
+    font-weight: var(--fw-black);
+    color: var(--clr-neutral-800);
+}
+
+.order__plan {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 1.3rem;
+    background-color: var(--clr-neutral-100);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.plan-title {
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-800);
+}
+
+/* buttons styling */
+
+.button__change-plan {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: var(--clr-primary-500);
+    font-weight: var(--fw-bold);
+    font-size: 0.9rem;
+    text-align: right;
+    padding: 0;
+}
+
+.button-payment {
+    font-size: 0.9rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-500);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+    box-shadow: 0 15px 30px -15px var(--clr-primary-500);
+}
+
+.button-cancel-order {
+    font-size: 0.9rem;
+    font-weight: var(--fw-black);
+    color: var(--clr-neutral-400);
+    background: none;
+    border: none;
+    padding: 0.5rem 0;
+}

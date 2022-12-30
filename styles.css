@@ -14,3 +14,19 @@
     --fw-bold: 700;
     --fw-black: 900;
 }
+
+/* general styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-medium);
+    font-size: 1rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-primary-100);
+
+    /* since it's a simple project and all the content is center in the middle, I decided to put this on the body */
+
+    display: grid;
+    place-content: center;
+    margin: 1.5rem;
+}

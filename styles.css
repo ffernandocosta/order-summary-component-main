@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
+    text-align: left;
 }
 
 /* order styles */
@@ -79,7 +80,7 @@ body {
 
 .order__plan {
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 1fr 0.5fr;
     gap: 1.3rem;
     background-color: var(--clr-neutral-100);
     padding: 1rem 1rem;
